@@ -3,8 +3,8 @@
 ## 试用框架：koa2,koa-router
 ## 作用：会生成对应的增删改查语句的文件，文件输出一个koa-router
 
-# example
-## sh run.sh 
+
+## 介绍
 提示输入表名，比如输入了 'user'
 生成一个user的增删改查路由语句
 # 对应路由：
