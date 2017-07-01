@@ -1,0 +1,38 @@
+{
+  "name": "node-restful",
+  "version": "1.0.0",
+  "description": "试用koa2,koa-router根据mongo table的结构，自动生成增删改查路由的代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjzkw960909/node-restful.git"
+  },
+  "keywords": [
+    "restful",
+    "auto-tool"
+  ],
+  "bin": {
+    "restful": "./index.js"
+  },
+  "author": "kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjzkw960909/node-restful/issues"
+  },
+  "homepage": "https://github.com/zjzkw960909/node-restful#readme",
+  "devDependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "mongodb": "^2.2.29"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-register": "^6.24.1"
+  }
+}
