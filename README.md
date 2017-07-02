@@ -3,8 +3,7 @@
 ## 用法: restful
 ## 试用框架：koa2,koa-router
 ## 作用：会生成对应的增删改查语句的文件，文件输出一个koa-router
-
-
+![img]https://im.ezgif.com/tmp/ezgif-1-c72b8638b3.gif
 ## 介绍
 提示输入表名，比如输入了 'user'
 生成一个user的增删改查路由语句
