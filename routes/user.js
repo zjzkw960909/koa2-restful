@@ -1,10 +1,19 @@
-const crud = require('../lib/crud.js')
+const crud = require('koa2-restful/lib/crud')
 const koaBody = require('koa-body')
 const ObjectId = require('mongodb').ObjectID
 let table = 'user'
 let find = (router) => {
     router.get(`/api/${table}`, async (ctx, next) => {
         let res = await crud.find(table, ctx.query)
+        ctx.body = res
+    })
+}
+let findOne = (router) => {
+    router.get(`/api/${table}/:id`, async (ctx, next) => {
+        let opts = {
+                _id: ObjectId(ctx.params.id)
+            }
+        let res = await crud.findOne(table, opts)
         ctx.body = res
     })
 }
@@ -59,6 +68,7 @@ let delMany = (router) => {
 }
 let route = function (router) {
     find(router)
+    findOne(router)
     insert(router)
     count(router)
     update(router)
