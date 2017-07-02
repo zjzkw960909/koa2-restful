@@ -1,5 +1,6 @@
 # koa2-restful
-## 用法：sh run.sh
+## 安装：npm install, npm install -g koa2-restful 
+## 用法: restful
 ## 试用框架：koa2,koa-router
 ## 作用：会生成对应的增删改查语句的文件，文件输出一个koa-router
 
