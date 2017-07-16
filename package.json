@@ -1,6 +1,6 @@
 {
   "name": "node-restful",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "试用koa2,koa-router根据mongo table的结构，自动生成增删改查路由的代码",
   "main": "index.js",
   "scripts": {
